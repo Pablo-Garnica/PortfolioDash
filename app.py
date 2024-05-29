@@ -6,6 +6,7 @@ from layout.layout import card,graphs
 
 app = Dash(__name__,external_stylesheets=[dbc.themes.BOOTSTRAP, dbc.icons.BOOTSTRAP],)
 app.title = 'Popular Spotify Songs'
+server = app.server
 #_________________________________________________________________________________________
 #Modal
 navbar.get_callback()(app)
