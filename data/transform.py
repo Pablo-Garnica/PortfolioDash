@@ -23,7 +23,7 @@ def group_agg(df,ls):
 #_____________________________________________________________
 #_______________________data__________________________________
 def import_transform_data():
-    data = pd.read_csv('data\Popular_Spotify_Songs.csv',encoding='latin1')
+    data = pd.read_csv('Popular_Spotify_Songs.csv',encoding='latin1')
     #Errores
     dic_error = {}
     ls_val = [
