@@ -25,5 +25,5 @@ app.layout = html.Div([
 #Iniciar la aplicacion
 if __name__ == '__main__':
     app.config.suppress_callback_exceptions=True
-    app.run(debug=True, host='0.0.0.0')
+    app.run(debug=False, host='0.0.0.0')
 
